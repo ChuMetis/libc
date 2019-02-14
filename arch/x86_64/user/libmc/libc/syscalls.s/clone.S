@@ -1,6 +1,7 @@
-#include "syscalls.h"
+#include <syscalls.h>
 #include <errno.h>
-#include "dietwarning.h"
+#include <mcinc/dietwarning.h>
+
 
 .text
 .type clone,@function

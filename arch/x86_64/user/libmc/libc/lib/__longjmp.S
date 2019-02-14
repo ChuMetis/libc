@@ -1,5 +1,5 @@
 #include <setjmp.h>
-#include "dietwarning.h"
+#include <mcinc/dietwarning.h>
 
 .text
 .global __longjmp

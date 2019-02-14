@@ -1,4 +1,4 @@
-#include <dietfeatures.h>
+#include <mcinc/dietfeatures.h>
 
 #define SYS_exit 0x3c
 
@@ -34,7 +34,7 @@ __error_unified_syscall:
 .Lnoerror:
 
 /* here we go and "reuse" the return for weak-void functions */
-#include "dietuglyweaks.h"
+#include <mcinc/dietuglyweaks.h>
 
 	ret
 .Lhere:

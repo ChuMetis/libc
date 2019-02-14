@@ -1,4 +1,4 @@
-#include "dietfeatures.h"
+#include <mcinc/dietfeatures.h>
 
 .text
 .global _start
