@@ -1,4 +1,5 @@
-#include "dietfeatures.h"
+#include <mcinc/dietfeatures.h>
+
 .text
 .global strlen
 .type strlen,@function

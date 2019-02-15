@@ -44,7 +44,7 @@ libc-y += syscalls.s/unified.o
 
 libc-y += $(SYSCALLOBJ)
 #LIBOBJ := lib/__v_printf.o
-#LIBOBJ := lib/strlen.o
+LIBOBJ := lib/strlen.o
 libc-y += $(LIBOBJ)
 libc-y += $(LIBSTDIOOBJ)
 libc-y += $(LIBUGLYOBJ)
